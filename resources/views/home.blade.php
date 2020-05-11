@@ -15,7 +15,7 @@
       </span>
     </div>
     <div class="github-link float-right">
-      <a href="https://github.com/thavi97/NasaHack">Github</a>
+      <a href="https://github.com/thavi97/MarsInfo">Github</a>
     </div>
   </div>
   <div class="weather-info-container col-lg-12">
