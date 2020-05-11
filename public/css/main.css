@@ -27,6 +27,10 @@ body {
   display: inline-block;
 }
 
+.github-link{
+  display: inline-block;
+}
+
 .rover-photo{
   margin: 0px 0px 20px 0px;
 }

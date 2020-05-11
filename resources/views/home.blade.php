@@ -14,6 +14,12 @@
         <b>{{$data['todays_weather']['HWS']['av']}}m/s</b>
       </span>
     </div>
+    <div class="github-link float-right">
+      <a href="https://github.com/thavi97/NasaHack">Github</a>
+    </div>
+  </div>
+  <div class="weather-info-container col-lg-12">
+    <span class="weather-text">Here are the latest images from Curiosity!</span>
   </div>
   <div class="row">
     @foreach($data['photos']['photos'] as $photo)
