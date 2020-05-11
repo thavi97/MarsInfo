@@ -15,5 +15,14 @@
       </span>
     </div>
   </div>
+  <div class="row">
+    @foreach($data['photos']['photos'] as $photo)
+    <div class="col-lg-4 rover-photo">
+      <div class="thumbnail">
+        <img src="{{$photo['img_src']}}" alt="$photo['id']" style="width:100%">
+      </div>
+    </div>
+    @endforeach
+  </div>
 </div>
 @endsection
